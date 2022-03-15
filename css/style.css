@@ -1,0 +1,521 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 66px;
+}
+
+@media screen and (max-width:800){
+    .navBar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 15px 0px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 66px;
+    }
+    
+}
+.logo{
+    display: flex;
+    width: 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    height: 40px;
+}
+
+.logo h3{
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0px 5px;
+}
+
+.midMenu{
+    display: flex;
+    width: 29%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midMenu li{
+    list-style: none;
+}
+
+.midMenu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.rightMenu{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -55px;
+}
+
+.rightMenu h4{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.rightMenu a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.netIcon{
+    height: 19px;
+    margin: 0px 19px;
+    
+}
+.rightIcon{
+    height: 16px;
+    /* filter: invert(100); */
+}
+
+.right_btn{
+    display: flex;
+    border: 1px solid;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 6px 7px;
+    background-color: #fffcfc;
+}
+
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: black;
+}
+
+.home img{
+    width: 90%;
+    margin-top: 7%;
+    border-radius: 15px;
+    height: 100vh;
+    opacity: 0.7;
+    margin-top: 6%;
+}
+
+
+h1{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3.2rem;
+}
+
+.clexBtn{
+    position: absolute;
+    left: 45%;
+    bottom: -90px;
+    width: 185px;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px 36px;
+    border-radius: 30px;
+    font-size: 23px;
+    background-color: #fffcfc;
+    color: #6f0c7afa;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+/* Search box section */
+
+.searchContainerBox{
+    width: 100%;
+    background-color: black;
+}
+
+
+.srch_container{
+    width: 55%;
+    height: 70px;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 66px;
+    border-radius: 40px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    background-color: white;
+}
+
+.srchBox{
+    cursor: pointer;
+    width: 275px;
+    height: 70px;
+    /* background-color: blue; */
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.srchBox:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.lineH{
+    width: 0.1px;
+    height: 50px;
+    background-color: black;
+    margin: 0px 20px;
+}
+
+
+.srchBox p{
+    margin-left: 18%;
+    padding-top: 8px;
+}
+
+.srchBox input{
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0px;
+    border-bottom-left-radius: 16px;
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    border: none;        
+}
+
+
+.srchBox input:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+.srchBox span{
+    font-size: 14px;
+    padding: 8px 0px;
+    border-bottom-left-radius: 16px;
+    width: 200px;
+    height: 45px;
+    border: none;
+}
+/* trip section */
+.trip{
+    width: 100%;
+    height: 85vh;
+}
+
+.tripTxt{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 35px;
+}
+
+.tripbox{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.box{
+    width: 25%;
+    height: 95%;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.box img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box .boxTxt{
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+    margin: 40px 15px
+}
+
+.box .boxPara{
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.box1{
+    background-color:rgb(217, 59, 48);
+}
+
+.box2{
+    background-color:rgb(204, 45, 74);
+}
+
+.box3{
+    background-color:rgb(188, 26, 110);
+}
+
+.box4{
+    background-color:rgb(204, 45, 74);
+}
+
+
+/* Discover Section */
+
+.discover_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.discBox{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+.disc_Box_1{
+    width: 44%;
+    height: 90vh;
+    margin: 0px 15px;
+}
+
+.disc_Box_1 img{
+    width: 100%;
+    height: 90vh;
+    border-radius: 10px;
+}
+
+.disc_txt{
+    font-family: sans-serif;
+    position: relative;
+    bottom: 91%;
+    font-size: 45px;
+    color: white;
+    margin-left: 30px;
+}
+
+
+.discBtn{
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+.discBtn a{
+    color: black;
+    text-decoration: none;
+}
+
+.discBtn:hover{
+    background-color: rgb(228, 225, 225);   
+}
+
+
+ /* About Hosting  */
+
+ .hosting_container{
+     width: 100%;
+     height: 100vh;
+     /* background-color: black; */
+     margin-top: 8%;
+    }
+
+    .hosting_img{
+        width: 90%;
+        height: 90vh;
+        background-color: red;
+        margin: auto;
+    }
+    
+    .hosting_img img{
+        width: 100%;
+        height: 97vh;
+        border-radius: 10px;
+    }
+
+
+    .host_txt{
+        font-family: sans-serif;
+        position: relative;
+        bottom: 91%;
+        font-size: 5rem;
+        color: white;
+        margin-left: 6%;
+        /* margin-left: 30px; */
+    }
+
+    
+    
+.hostBtn{
+        width: 170px;
+        height: 50px;
+        background-color: white;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        color: black;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+ .down{
+     margin-top: 12%;
+ }   
+
+    
+.hostBtn a{
+    color: black;
+    text-decoration: none;
+}
+
+.hostBtn:hover{
+    background-color: rgb(228, 225, 225);   
+}
+
+
+/* Footer Section */
+.footer_container{
+    width: 100%;
+    height: 52vh;
+    background-color: rgba(0, 0, 0, 0.048);
+    margin-top: 4%;
+}
+
+
+.footer_Box{
+    width: 90%;
+    height: 45vh;
+    /* background-color: red; */
+    margin: auto;
+    position: relative;
+    top: 10%;
+    display: flex;
+}
+
+
+.foot_box{
+    cursor: pointer;
+    width: 20%;
+    height: 35vh;
+    margin: 10px;
+}
+
+.foot_box p{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.foot_box ul{
+    list-style: none;
+    line-height: 2.4rem;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.foot_box ul li a{
+    text-decoration: none;
+    color: black;    
+}
+
+.foot_box ul li a:hover{
+    color: red;
+}
+
+.end_footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.end_footer ul{
+    display: flex;    
+    list-style: none;
+}
+
+.end_footer ul li{
+    padding: 0px 15px;        
+}
+
+
+.end_left_footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.end_left_footer li{
+    list-style: none;    
+}
+
+.end_left_footer a{
+    text-decoration: none;
+    padding: 0px 10px;        
+}
+
+.end_left_footer img{
+    height: 25px;
+    border-radius: 50%;
+}
+
+#net_logo{
+    filter: invert(100);
+}
