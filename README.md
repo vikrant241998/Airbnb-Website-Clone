@@ -1,2 +1,3 @@
 # Airbnb-Website-Clone
-https://reverent-engelbart-1046c7.netlify.app
+ttps://capable-valkyrie-ba88f4.netlify.app
+Netlify
